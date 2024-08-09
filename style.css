@@ -346,6 +346,7 @@ margin-bottom: 60px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    border: 1px solid transparent
 }
 .joinUsBtn:hover {
     background-color: #fff;
@@ -401,4 +402,66 @@ font-size: 12px;
 position: absolute;
 right: 80px;
 top: 38px;
+}
+.mobile{ background-color: #9A54BC; margin-top: 100px; height: 300px; } .mobile h2{ align-items: center; color: white; } .mButtons{ gap: 50px; margin-top: 30px;
+
+} .mobileButtons{ background-color: #9A54BC; border: 2px solid white; border-radius: 3px; color: white; padding: 15px 30px; } .mobileButtons:hover{ background-color: white; color: #9A54BC; } .map{ background-color:#E2BDF21C; gap: 150px; } .email{ gap: 30px; height: 250px;
+
+} .email h2{ margin-bottom: 50px;
+
+}
+.collabBottom {
+    margin-top: 200px;
+    gap: 150px;
+    padding: 100px 0 150px 0;
+    position: relative;
+    background-color: #E2BDF21C;
+}
+.collabInfo {
+    margin-top: -170px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.collabInfo img {
+    width: 130px;
+}
+.collabInfoText {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+.collabListBot {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px 100px;
+    flex-wrap: wrap;
+    width: 500px;
+    position: relative;
+    top: 55px;
+    margin-top: -200px;
+}
+.socialMediaIcons {
+    gap: 10px;
+}
+.socialMediaIcons img {
+    width: 35px;
+}
+.linksBot {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+.purpleLink {
+    color: #60267F;
+    text-decoration: none;
+}
+.boldPhar {
+    font-weight: 500;
 }
